@@ -3,10 +3,11 @@ import Image from "next/image";
 import { MainNav } from "@/components/topbar/main-nav";
 import { Search } from "@/components/topbar/search";
 import { UserNav } from "@/components/topbar/user-nav";
+import { ModeToggle } from "@/components/topbar/toggle";
 
 export const metadata: Metadata = {
-  title: "Dashboard",
-  description: "Example dashboard app built using the components.",
+  title: "Project Manager",
+  description: "Project Manager",
 };
 
 export default function Home() {
@@ -35,6 +36,7 @@ export default function Home() {
             <MainNav className="mx-6" />
             <div className="ml-auto flex items-center space-x-4">
               <Search />
+              <ModeToggle />
               <UserNav />
             </div>
           </div>
