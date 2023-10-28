@@ -18,16 +18,16 @@ export function MainNav({
         Dashboard
       </Link>
       <Link
-        href="/"
+        href="/projects"
         className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
       >
         Projects
       </Link>
       <Link
-        href="/"
+        href="/manufacturing"
         className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
       >
-        Settings
+        Manufacturing
       </Link>
     </nav>
   );

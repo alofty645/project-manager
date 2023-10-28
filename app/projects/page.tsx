@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div>
       <Topbar></Topbar>
-      <h1 className="text-center">Dashboard</h1>
+      <Kanban></Kanban>
     </div>
   );
 }
